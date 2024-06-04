@@ -1,0 +1,64 @@
+.navbar ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: dimgray;
+    overflow: hidden;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+   
+}
+.navbar a:hover{
+    background-color: black;
+}
+.navbar li{
+    float: left;
+   
+}
+ul li ul.droplist li{
+    display: block;
+    background: #333;
+    margin: 2px 0px;
+  
+    
+}
+ul li ul.droplist {
+    width: auto;
+    position: absolute;
+    display: none;
+    z-index: 999;
+  
+}
+ul li:hover ul.droplist{
+    display: block;
+   
+ 
+}
+ul li ul.droplists li{
+    display: block;
+    background: #333;
+    margin: 2px 0;
+}
+ul li ul.droplists{
+    width: auto;
+    position: absolute;
+    display: none;
+    z-index: 999;
+}
+ul li:hover ul.droplists{
+    display: block;
+}
+ 
+ table, th, td
+ {
+   border: 2px solid rgb(128, 0, 64);
+ border-collapse: collapse;
+ background-color: #D6EAF8;
+ padding: 5px;
+ text-align:left;
+  }
